@@ -180,7 +180,7 @@
     <header>
     <div class="nav-container">
         <div class="logo-wrapper">
-            <img src="/foto/logo.svg" alt="Diah Bakery Logo">
+            <img src="/foto/logo.png" alt="Diah Bakery Logo">
         </div>
         
         <nav class="nav-main">

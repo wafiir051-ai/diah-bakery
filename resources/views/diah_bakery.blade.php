@@ -425,7 +425,7 @@
     <!-- Logo di Tengah -->
     <div class="flex items-center">
       <div class="w-16 h-16 rounded-full flex items-center justify-center overflow-hidden bg-white shadow-md">
-        <img src="/foto/logo.svg" alt="Logo DH Bakery" class="w-full h-full object-contain">
+        <img src="/foto/logo.png" alt="Logo DH Bakery" class="w-full h-full object-contain">
       </div>
     </div>
     
