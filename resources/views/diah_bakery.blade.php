@@ -43,7 +43,7 @@
       background-image: url('/foto/hero.jpg');
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: center;
+      background-position: right center;
       min-height: 100vh;
       width: 100%;
       position: relative;
