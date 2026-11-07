@@ -2,62 +2,42 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\Kue;
 use Illuminate\Database\Seeder;
-use App\Models\Kue;  // ← Tambahkan ini
 
 class KueSeeder extends Seeder
 {
     /**
-     * Run the database seeds.
+     * Katalog awal dibuat dari foto di public/uploads.
+     * Harga Rp 10.000 dan stok 10 hanya sementara; ubah lewat halaman admin.
      */
     public function run(): void
     {
         $products = [
-            [
-                'nama' => 'Red Velvet',
-                'rasa_kategori' => 'Cream Cheese',
-                'harga' => 45000,
-                'stock' => 10,
-                'foto' => 'redvelvet.jpg',
-                'deskripsi' => 'Lembut dengan topping cream cheese yang manis'
-            ],
-            [
-                'nama' => 'Chocolate Lava',
-                'rasa_kategori' => 'Coklat',
-                'harga' => 55000,
-                'stock' => 5,
-                'foto' => 'chocolava.jpg',
-                'deskripsi' => 'Meleleh di mulut dengan isian coklat panas'
-            ],
-            [
-                'nama' => 'Strawberry Shortcake',
-                'rasa_kategori' => 'Strawberry',
-                'harga' => 65000,
-                'stock' => 8,
-                'foto' => 'strawberry.jpg',
-                'deskripsi' => 'Segar dengan potongan strawberry asli'
-            ],
-            [
-                'nama' => 'Black Forest',
-                'rasa_kategori' => 'Coklat Ceri',
-                'harga' => 75000,
-                'stock' => 3,
-                'foto' => 'blackforest.jpg',
-                'deskripsi' => 'Perpaduan coklat dan ceri yang klasik'
-            ],
-            [
-                'nama' => 'Cheesecake Blueberry',
-                'rasa_kategori' => 'Keju',
-                'harga' => 70000,
-                'stock' => 7,
-                'foto' => 'cheesecake.jpg',
-                'deskripsi' => 'Lembut dengan saus blueberry homemade'
-            ],
+            ['Cromboloni', 'Cromboloni', '1778209867_cromboloni.png'],
+            ['Cromboloni Coklat', 'Cromboloni', '1780025584_crombolonicklt.jpg'],
+            ['Cromboloni Matcha', 'Cromboloni', '1780025831_crombolonimtch.jpg'],
+            ['Berry Cake', 'Cake', '1779506688_berrycake.jpg'],
+            ['Bolu Pandan', 'Bolu', '1780023783_bolu pandan.jpg'],
+            ['Risol Mayo', 'Gurih', '1780025723_risol mayo.jpg'],
+            ['Nastar', 'Kue Kering', '1780035857_nastar.jpg'],
+            ['Dorayaki', 'Dorayaki', '1780115726_dorayaki.jpg'],
+            ['Donat Salju', 'Donat', '1780115800_donat salju.jpg'],
+            ['Kue Ulang Tahun', 'Kue Ulang Tahun', '1780115887_kueultah.jpg'],
+            ['Balon Random', 'Lainnya', '1780713845_balon random.jpg'],
         ];
 
-        foreach ($products as $product) {
-            Kue::create($product);
+        foreach ($products as [$nama, $kategori, $foto]) {
+            Kue::updateOrCreate(
+                ['nama' => $nama],
+                [
+                    'rasa_kategori' => $kategori,
+                    'harga' => 10000,
+                    'stock' => 10,
+                    'foto' => $foto,
+                    'deskripsi' => 'Dibuat segar oleh Diah Bakery.',
+                ]
+            );
         }
     }
 }
