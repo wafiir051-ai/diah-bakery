@@ -40,7 +40,7 @@
 
     /* HERO: Full Background */
     .hero-container {
-      background-image: linear-gradient(135deg, #fde4ec 0%, #f9cfe0 100%);
+      background-image: url('/foto/hero.jpg');
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -520,7 +520,7 @@
         <div class="menu-card group relative">
           <div class="absolute top-8 left-8 bg-rose-500 text-white text-[10px] font-black px-4 py-2 rounded-full z-20 shadow-lg">__BEST SELLER__</div>
           <div class="h-80 overflow-hidden">
-            <img src="/uploads/1780025584_crombolonicklt.jpg" alt="Cromboloni" class="w-full h-full object-cover transition-transform group-hover:scale-110 duration-1000">
+            <img src="/uploads/1780115800_donat%20salju.jpg" alt="Donut's" class="w-full h-full object-cover transition-transform group-hover:scale-110 duration-1000">
           </div>
           <div class="p-12 text-center border-t border-rose-50">
             <h4 class="text-2xl font-black text-gray-800">Donut's</h4>
@@ -537,7 +537,7 @@
         <div class="menu-card group relative">
           <div class="absolute top-8 left-8 bg-rose-500 text-white text-[10px] font-black px-4 py-2 rounded-full z-20 shadow-lg">__BEST SELLER__</div>
           <div class="h-80 overflow-hidden">
-            <img src="/uploads/1780025831_crombolonimtch.jpg" alt="Cromboloni" class="w-full h-full object-cover transition-transform group-hover:scale-110 duration-1000">
+            <img src="/uploads/1778209867_cromboloni.png" alt="Cromboloni Viral" class="w-full h-full object-cover transition-transform group-hover:scale-110 duration-1000">
           </div>
           <div class="p-12 text-center border-t border-rose-50">
             <h4 class="text-2xl font-black text-gray-800">Cromboloni Viral</h4>
@@ -550,7 +550,7 @@
         <div class="menu-card group relative">
           <div class="absolute top-8 left-8 bg-rose-500 text-white text-[10px] font-black px-4 py-2 rounded-full z-20 shadow-lg">__BEST SELLER__</div>
           <div class="h-80 overflow-hidden">
-            <img src="/uploads/1778209867_cromboloni.png" alt="Cromboloni" class="w-full h-full object-cover transition-transform group-hover:scale-110 duration-1000">
+            <img src="/uploads/1778300481_1.png" alt="Berry Cake" class="w-full h-full object-cover transition-transform group-hover:scale-110 duration-1000">
           </div>
           <div class="p-12 text-center border-t border-rose-50">
             <h4 class="text-2xl font-black text-gray-800">Berry Cake</h4>
