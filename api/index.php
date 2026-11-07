@@ -13,13 +13,17 @@ foreach (['app/public', 'framework/cache/data', 'framework/sessions', 'framework
 $_ENV['LARAVEL_STORAGE_PATH'] = $tmp;
 putenv("LARAVEL_STORAGE_PATH=$tmp");
 
-// SQLite: copy the pre-seeded database into /tmp once per instance (data there is ephemeral).
-$db = '/tmp/database.sqlite';
-if (! file_exists($db)) {
-    copy(__DIR__.'/../database/seed.sqlite', $db);
+// Fallback to the pre-seeded SQLite file (ephemeral in /tmp) when no Postgres connection is configured.
+if (! getenv('DB_HOST')) {
+    $db = '/tmp/database.sqlite';
+    if (! file_exists($db)) {
+        copy(__DIR__.'/../database/seed.sqlite', $db);
+    }
+    $_ENV['DB_CONNECTION'] = 'sqlite';
+    putenv('DB_CONNECTION=sqlite');
+    $_ENV['DB_DATABASE'] = $db;
+    putenv("DB_DATABASE=$db");
 }
-$_ENV['DB_DATABASE'] = $db;
-putenv("DB_DATABASE=$db");
 
 define('LARAVEL_START', microtime(true));
 
