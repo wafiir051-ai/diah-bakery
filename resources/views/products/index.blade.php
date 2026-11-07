@@ -497,7 +497,7 @@
                 
                 <!-- Slide 1 -->
                 <div class="carousel-slide">
-                    <img src="/uploads/1779506688_berrycake.jpg" alt="Promo Member Baru">
+                    <img src="/foto/promo-spesial.jpg" alt="Promo Member Baru">
                     
                 </div>
                 
