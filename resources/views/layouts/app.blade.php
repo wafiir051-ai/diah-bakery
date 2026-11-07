@@ -288,7 +288,7 @@
 
         <!-- Logo di Tengah -->
         <a href="{{ url('/') }}" class="nav-logo">
-            <img src="{{ asset('storage/foto/logoa.png') }}" alt="Logo DH Bakery">
+            <img src="/foto/logo.svg" alt="Logo DH Bakery">
         </a>
 
         <!-- Menu Kanan - rapat ke tengah -->

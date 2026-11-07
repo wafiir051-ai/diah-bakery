@@ -351,7 +351,7 @@
     
     <!-- Logo -->
     <div class="nav-logo">
-      <img src="storage/foto/logoa.png" alt="Logo DH Bakery">
+      <img src="/foto/logo.svg" alt="Logo DH Bakery">
     </div>
     
     <!-- Menu Kanan -->

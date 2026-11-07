@@ -497,7 +497,7 @@
                 
                 <!-- Slide 1 -->
                 <div class="carousel-slide">
-                    <img src="{{ asset('storage/foto/promo2.png') }}" alt="Promo Member Baru">
+                    <img src="/uploads/1779506688_berrycake.jpg" alt="Promo Member Baru">
                     
                 </div>
                 
@@ -520,7 +520,7 @@
                 
                 <!-- Slide 4 -->
                 <div class="carousel-slide">
-                    <img src="{{ asset('storage/foto/promo1.png') }}" alt="Promo Member Baru">
+                    <img src="/uploads/1780115800_donat%20salju.jpg" alt="Promo Member Baru">
                    <div class="slide-content">
                         <span class="promo-badge">✨ MEMBER BARU ✨</span>
                         <h2>Dapatkan Diskon <span class="highlight">20%</span> untuk Pembelian Pertama!</h2>

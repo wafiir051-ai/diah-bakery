@@ -25,7 +25,7 @@
     }
 
     #Profile {
-      background-image: url('storage/foto/bgprofile5.png');
+      background-image: linear-gradient(135deg, #fde4ec 0%, #f9cfe0 100%);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -40,7 +40,7 @@
 
     /* HERO: Full Background */
     .hero-container {
-      background-image: url('storage/foto/bg 1.png');
+      background-image: linear-gradient(135deg, #fde4ec 0%, #f9cfe0 100%);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -425,7 +425,7 @@
     <!-- Logo di Tengah -->
     <div class="flex items-center">
       <div class="w-16 h-16 rounded-full flex items-center justify-center overflow-hidden bg-white shadow-md">
-        <img src="storage/foto/logoa.png" alt="Logo DH Bakery" class="w-full h-full object-contain">
+        <img src="/foto/logo.svg" alt="Logo DH Bakery" class="w-full h-full object-contain">
       </div>
     </div>
     
@@ -520,7 +520,7 @@
         <div class="menu-card group relative">
           <div class="absolute top-8 left-8 bg-rose-500 text-white text-[10px] font-black px-4 py-2 rounded-full z-20 shadow-lg">__BEST SELLER__</div>
           <div class="h-80 overflow-hidden">
-            <img src="storage/foto/2.png" alt="Cromboloni" class="w-full h-full object-cover transition-transform group-hover:scale-110 duration-1000">
+            <img src="/uploads/1780025584_crombolonicklt.jpg" alt="Cromboloni" class="w-full h-full object-cover transition-transform group-hover:scale-110 duration-1000">
           </div>
           <div class="p-12 text-center border-t border-rose-50">
             <h4 class="text-2xl font-black text-gray-800">Donut's</h4>
@@ -537,7 +537,7 @@
         <div class="menu-card group relative">
           <div class="absolute top-8 left-8 bg-rose-500 text-white text-[10px] font-black px-4 py-2 rounded-full z-20 shadow-lg">__BEST SELLER__</div>
           <div class="h-80 overflow-hidden">
-            <img src="storage/foto/3.png" alt="Cromboloni" class="w-full h-full object-cover transition-transform group-hover:scale-110 duration-1000">
+            <img src="/uploads/1780025831_crombolonimtch.jpg" alt="Cromboloni" class="w-full h-full object-cover transition-transform group-hover:scale-110 duration-1000">
           </div>
           <div class="p-12 text-center border-t border-rose-50">
             <h4 class="text-2xl font-black text-gray-800">Cromboloni Viral</h4>
@@ -550,7 +550,7 @@
         <div class="menu-card group relative">
           <div class="absolute top-8 left-8 bg-rose-500 text-white text-[10px] font-black px-4 py-2 rounded-full z-20 shadow-lg">__BEST SELLER__</div>
           <div class="h-80 overflow-hidden">
-            <img src="storage/foto/1.png" alt="Cromboloni" class="w-full h-full object-cover transition-transform group-hover:scale-110 duration-1000">
+            <img src="/uploads/1778209867_cromboloni.png" alt="Cromboloni" class="w-full h-full object-cover transition-transform group-hover:scale-110 duration-1000">
           </div>
           <div class="p-12 text-center border-t border-rose-50">
             <h4 class="text-2xl font-black text-gray-800">Berry Cake</h4>
@@ -578,7 +578,7 @@
           <!-- glow belakang -->
           <div class="absolute inset-0 bg-rose-400/40 blur-3xl rounded-full scale-110 animate-pulse"></div>
           <!-- gambar -->
-          <img src="storage/foto/bg.png" alt="Foto Profil DH Bakery"
+          <img src="/uploads/1780115887_kueultah.jpg" alt="Foto Profil DH Bakery"
                class="w-72 h-72 object-cover rounded-full shadow-2xl border-4 border-rose-600 
                       image-float transition-all duration-700 
                       group-hover:scale-110 group-hover:rotate-3 group-hover:shadow-rose-500/50" />
